@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CourseSection11" Database="" Version="10000">
+  <Project Name="Math" Path="Math/Math.project" Active="No"/>
+  <Project Name="Random" Path="Random/Random.project" Active="No"/>
+  <Project Name="FunctionDefinition" Path="FunctionDefinition/FunctionDefinition.project" Active="No"/>
+  <Project Name="FunctionPrototypes" Path="FunctionPrototypes/FunctionPrototypes.project" Active="No"/>
+  <Project Name="CompanyChallenge" Path="CompanyChallenge/CompanyChallenge.project" Active="No"/>
+  <Project Name="FunctionParameters" Path="FunctionParameters/FunctionParameters.project" Active="No"/>
+  <Project Name="DefaultArguments" Path="DefaultArguments/DefaultArguments.project" Active="No"/>
+  <Project Name="FunctinoOverloading" Path="FunctinoOverloading/FunctinoOverloading.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Math" ConfigName="Debug"/>
+      <Project Name="Random" ConfigName="Debug"/>
+      <Project Name="FunctionDefinition" ConfigName="Debug"/>
+      <Project Name="FunctionPrototypes" ConfigName="Debug"/>
+      <Project Name="CompanyChallenge" ConfigName="Debug"/>
+      <Project Name="FunctionParameters" ConfigName="Debug"/>
+      <Project Name="DefaultArguments" ConfigName="Debug"/>
+      <Project Name="FunctinoOverloading" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="Math" ConfigName="Release"/>
+      <Project Name="Random" ConfigName="Release"/>
+      <Project Name="FunctionDefinition" ConfigName="Release"/>
+      <Project Name="FunctionPrototypes" ConfigName="Release"/>
+      <Project Name="CompanyChallenge" ConfigName="Release"/>
+      <Project Name="FunctionParameters" ConfigName="Release"/>
+      <Project Name="DefaultArguments" ConfigName="Release"/>
+      <Project Name="FunctinoOverloading" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

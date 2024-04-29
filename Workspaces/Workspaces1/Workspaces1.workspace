@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Workspaces1" Database="" Version="10000">
+  <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="Project2" Path="Project2/Project2.project" Active="No"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="CompileErrors" Path="CompileErrors/CompileErrors.project" Active="No"/>
+  <Project Name="CompileWarnings" Path="CompileWarnings/CompileWarnings.project" Active="No"/>
+  <Project Name="LinkerError" Path="LinkerError/LinkerError.project" Active="No"/>
+  <Project Name="Section4Challenge" Path="Section4Challenge/Section4Challenge.project" Active="No"/>
+  <Project Name="IncludePreProcessorDirective" Path="IncludePreProcessorDirective/IncludePreProcessorDirective.project" Active="No"/>
+  <Project Name="Namespaces" Path="Namespaces/Namespaces.project" Active="No"/>
+  <Project Name="BasicIO" Path="CinandCout/CinandCout.project" Active="No"/>
+  <Project Name="InitializingVariables" Path="VariablesConstant/VariablesConstant.project" Active="No"/>
+  <Project Name="GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
+  <Project Name="PrimitiveDataType" Path="DecimaltoBit/DecimaltoBit.project" Active="Yes"/>
+  <Project Name="SizeofOperator" Path="SizeofOperator/SizeofOperator.project" Active="No"/>
+  <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
+  <Project Name="ConstantsChallenge" Path="ConstantsChallenge/ConstantsChallenge.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="Project2" ConfigName="Debug"/>
+      <Project Name="FirstProgram" ConfigName="Debug"/>
+      <Project Name="CompileErrors" ConfigName="Debug"/>
+      <Project Name="CompileWarnings" ConfigName="Debug"/>
+      <Project Name="LinkerError" ConfigName="Debug"/>
+      <Project Name="Section4Challenge" ConfigName="Debug"/>
+      <Project Name="IncludePreProcessorDirective" ConfigName="Debug"/>
+      <Project Name="Namespaces" ConfigName="Debug"/>
+      <Project Name="BasicIO" ConfigName="Debug"/>
+      <Project Name="InitializingVariables" ConfigName="Debug"/>
+      <Project Name="GlobalVariables" ConfigName="Debug"/>
+      <Project Name="PrimitiveDataType" ConfigName="Debug"/>
+      <Project Name="SizeofOperator" ConfigName="Debug"/>
+      <Project Name="Constants" ConfigName="Debug"/>
+      <Project Name="ConstantsChallenge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="Project2" ConfigName="Release"/>
+      <Project Name="FirstProgram" ConfigName="Release"/>
+      <Project Name="CompileErrors" ConfigName="Release"/>
+      <Project Name="CompileWarnings" ConfigName="Release"/>
+      <Project Name="LinkerError" ConfigName="Release"/>
+      <Project Name="Section4Challenge" ConfigName="Release"/>
+      <Project Name="IncludePreProcessorDirective" ConfigName="Release"/>
+      <Project Name="Namespaces" ConfigName="Release"/>
+      <Project Name="BasicIO" ConfigName="Release"/>
+      <Project Name="InitializingVariables" ConfigName="Release"/>
+      <Project Name="GlobalVariables" ConfigName="Release"/>
+      <Project Name="PrimitiveDataType" ConfigName="Release"/>
+      <Project Name="SizeofOperator" ConfigName="Release"/>
+      <Project Name="Constants" ConfigName="Release"/>
+      <Project Name="ConstantsChallenge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

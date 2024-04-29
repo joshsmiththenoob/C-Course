@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CourseSection8" Database="" Version="10000">
+  <Project Name="AssignmentOperator" Path="AssignmentOperator/AssignmentOperator.project" Active="No"/>
+  <Project Name="IncrementDecrementOperators" Path="IncrementDecrementOperators/IncrementDecrementOperators.project" Active="No"/>
+  <Project Name="MixedExpressions" Path="MixedExpressions/MixedExpressions.project" Active="No"/>
+  <Project Name="EqualityOperators" Path="EqualityOperators/EqualityOperators.project" Active="No"/>
+  <Project Name="RelationalOperators" Path="RelationalOperators/RelationalOperators.project" Active="Yes"/>
+  <Project Name="LogicalOperators" Path="LogicalOperators/LogicalOperators.project" Active="No"/>
+  <Project Name="CodeChallenge" Path="CodeChallenge/CodeChallenge.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="AssignmentOperator" ConfigName="Debug"/>
+      <Project Name="IncrementDecrementOperators" ConfigName="Debug"/>
+      <Project Name="MixedExpressions" ConfigName="Debug"/>
+      <Project Name="EqualityOperators" ConfigName="Debug"/>
+      <Project Name="RelationalOperators" ConfigName="Debug"/>
+      <Project Name="LogicalOperators" ConfigName="Debug"/>
+      <Project Name="CodeChallenge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="AssignmentOperator" ConfigName="Release"/>
+      <Project Name="IncrementDecrementOperators" ConfigName="Release"/>
+      <Project Name="MixedExpressions" ConfigName="Release"/>
+      <Project Name="EqualityOperators" ConfigName="Release"/>
+      <Project Name="RelationalOperators" ConfigName="Release"/>
+      <Project Name="LogicalOperators" ConfigName="Release"/>
+      <Project Name="CodeChallenge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
