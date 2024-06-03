@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="D:\Workspaces\CourseSection7\CourseSection7.workspace">
-  <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="D:\Workspaces\CourseSection7\CourseSection7.workspace" Name="m_workspaceName"/>
+<Session Name="D:\C-Course\Workspaces\CourseSection7\CourseSection7.workspace">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="D:\C-Course\Workspaces\CourseSection7\CourseSection7.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="D:\Workspaces\CourseSection7\Arrays\main.cpp" Name="FileName"/>
-      <int Value="30" Name="FirstVisibleLine"/>
-      <int Value="11" Name="CurrentLine"/>
+      <wxString Value="D:\C-Course\Workspaces\CourseSection7\Arrays\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="D:\Workspaces\CourseSection7\MultidimensionArrays\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="1" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="D:\Workspaces\CourseSection7\Vectors\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="1" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="D:\Workspaces\CourseSection7\VectorsChallenge\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="4" Name="CurrentLine"/>
+      <wxString Value="D:\C-Course\Workspaces\CourseSection7\Vectors\main.cpp" Name="FileName"/>
+      <int Value="10" Name="FirstVisibleLine"/>
+      <int Value="5" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

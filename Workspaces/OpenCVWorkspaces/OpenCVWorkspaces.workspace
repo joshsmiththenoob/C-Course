@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="OpenCVWorkspaces" Database="" Version="10000">
+  <Project Name="ShowReadWaitKey" Path="ShowReadWaitKey/ShowReadWaitKey.project" Active="No"/>
+  <Project Name="BilateralFilter" Path="BilateralFilter/BilateralFilter.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="ShowReadWaitKey" ConfigName="Debug"/>
+      <Project Name="BilateralFilter" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="ShowReadWaitKey" ConfigName="Release"/>
+      <Project Name="BilateralFilter" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

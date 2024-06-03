@@ -54,13 +54,18 @@ int main(){
     
     std::string s1 {'C', '+', '+', 's', 't', 'r', 'i', 'n', 'g'}; // Delcare & Initialize C++ string object = vector of characters
     std::string s2 {"C++ strings"}; // Delcare & Initialize C++ string object = vector of characters
-
+    
+    char arr[] {'C', '-', 's', 't', 'y', 'l', 'e', ' ', 's', 't', 'r', 'i', 'n', 'g', '\0'};
+    char arr1[] {"C-style string"};
     print(s1);
     print(s2);
   
-    print("C-style string", s1); // First argument (= C-style string: character of array) is converted to a C++ string object
+  
+//    print("C-style String", s1); // First argument (= C-style string: character of array) is converted to a C++ string object
+    print(arr1, s1); // First argument (= C-style string: character of array) is converted to a C++ string object
   
     std::vector<std::string> three_stooges {"Larry", "Moe", "Curly"};
+//    std::cout << three_stooges  << std::endl;
     print(three_stooges);
     
     

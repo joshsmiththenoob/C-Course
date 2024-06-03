@@ -1,17 +1,17 @@
 [{
-  "file": "D:\\Workspaces\\CourseSection7\\VectorsChallenge\\main.cpp",
-  "directory": "D:\\Workspaces\\CourseSection7\\VectorsChallenge",
-  "command": "C:/mingw64/bin/g++.exe -c D:\\Workspaces\\CourseSection7\\VectorsChallenge\\main.cpp -o D:\\Workspaces\\CourseSection7\\VectorsChallenge\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0 -IC:\\mingw64\\include\\c++\\13.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -gdwarf-2  -O0  -Wall"
+  "file": "D:\\C-Course\\Workspaces\\CourseSection7\\VectorsChallenge\\main.cpp",
+  "directory": "D:\\C-Course\\Workspaces\\CourseSection7\\VectorsChallenge",
+  "command": "C:/mingw64/bin/g++.exe -c D:\\C-Course\\Workspaces\\CourseSection7\\VectorsChallenge\\main.cpp -o D:\\C-Course\\Workspaces\\CourseSection7\\VectorsChallenge\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0 -IC:\\mingw64\\include\\c++\\13.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -ID:\\OpenCV\\opencv\\build\\include -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
-  "file": "D:\\Workspaces\\CourseSection7\\Vectors\\main.cpp",
-  "directory": "D:\\Workspaces\\CourseSection7\\Vectors",
-  "command": "C:/mingw64/bin/g++.exe -c D:\\Workspaces\\CourseSection7\\Vectors\\main.cpp -o D:\\Workspaces\\CourseSection7\\Vectors\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0 -IC:\\mingw64\\include\\c++\\13.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+  "file": "D:\\C-Course\\Workspaces\\CourseSection7\\Vectors\\main.cpp",
+  "directory": "D:\\C-Course\\Workspaces\\CourseSection7\\Vectors",
+  "command": "C:/mingw64/bin/g++.exe -c D:\\C-Course\\Workspaces\\CourseSection7\\Vectors\\main.cpp -o D:\\C-Course\\Workspaces\\CourseSection7\\Vectors\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0 -IC:\\mingw64\\include\\c++\\13.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -ID:\\OpenCV\\opencv\\build\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
  }, {
-  "file": "D:\\Workspaces\\CourseSection7\\MultidimensionArrays\\main.cpp",
-  "directory": "D:\\Workspaces\\CourseSection7\\MultidimensionArrays",
-  "command": "C:/mingw64/bin/g++.exe -c D:\\Workspaces\\CourseSection7\\MultidimensionArrays\\main.cpp -o D:\\Workspaces\\CourseSection7\\MultidimensionArrays\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0 -IC:\\mingw64\\include\\c++\\13.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+  "file": "D:\\C-Course\\Workspaces\\CourseSection7\\MultidimensionArrays\\main.cpp",
+  "directory": "D:\\C-Course\\Workspaces\\CourseSection7\\MultidimensionArrays",
+  "command": "C:/mingw64/bin/g++.exe -c D:\\C-Course\\Workspaces\\CourseSection7\\MultidimensionArrays\\main.cpp -o D:\\C-Course\\Workspaces\\CourseSection7\\MultidimensionArrays\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0 -IC:\\mingw64\\include\\c++\\13.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -ID:\\OpenCV\\opencv\\build\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
  }, {
-  "file": "D:\\Workspaces\\CourseSection7\\Arrays\\main.cpp",
-  "directory": "D:\\Workspaces\\CourseSection7\\Arrays",
-  "command": "C:/mingw64/bin/g++.exe -c D:\\Workspaces\\CourseSection7\\Arrays\\main.cpp -o D:\\Workspaces\\CourseSection7\\Arrays\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0 -IC:\\mingw64\\include\\c++\\13.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+  "file": "D:\\C-Course\\Workspaces\\CourseSection7\\Arrays\\main.cpp",
+  "directory": "D:\\C-Course\\Workspaces\\CourseSection7\\Arrays",
+  "command": "C:/mingw64/bin/g++.exe -c D:\\C-Course\\Workspaces\\CourseSection7\\Arrays\\main.cpp -o D:\\C-Course\\Workspaces\\CourseSection7\\Arrays\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0 -IC:\\mingw64\\include\\c++\\13.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -ID:\\OpenCV\\opencv\\build\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
  }]

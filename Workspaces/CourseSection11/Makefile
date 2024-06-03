@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ FunctinoOverloading - Debug ]----------"
-	@cd "FunctinoOverloading" && "$(MAKE)" -f  "FunctinoOverloading.mk"
+	@echo "----------Building project:[ SectionChallenge - Debug ]----------"
+	@cd "SectionChallenge" && "$(MAKE)" -f  "SectionChallenge.mk"
 clean:
-	@echo "----------Cleaning project:[ FunctinoOverloading - Debug ]----------"
-	@cd "FunctinoOverloading" && "$(MAKE)" -f  "FunctinoOverloading.mk" clean
+	@echo "----------Cleaning project:[ SectionChallenge - Debug ]----------"
+	@cd "SectionChallenge" && "$(MAKE)" -f  "SectionChallenge.mk" clean

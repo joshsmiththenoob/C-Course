@@ -7,7 +7,14 @@
   <Project Name="CompanyChallenge" Path="CompanyChallenge/CompanyChallenge.project" Active="No"/>
   <Project Name="FunctionParameters" Path="FunctionParameters/FunctionParameters.project" Active="No"/>
   <Project Name="DefaultArguments" Path="DefaultArguments/DefaultArguments.project" Active="No"/>
-  <Project Name="FunctinoOverloading" Path="FunctinoOverloading/FunctinoOverloading.project" Active="Yes"/>
+  <Project Name="FunctinoOverloading" Path="FunctinoOverloading/FunctinoOverloading.project" Active="No"/>
+  <Project Name="ArraysAndFunctions" Path="ArraysAndFunctions/ArraysAndFunctions.project" Active="No"/>
+  <Project Name="PassByReference" Path="PassByReference/PassByReference.project" Active="No"/>
+  <Project Name="OpenCVtest" Path="OpenCVtest/OpenCVtest.project" Active="No"/>
+  <Project Name="ScopeExample" Path="ScopeExample/ScopeExample.project" Active="No"/>
+  <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="No"/>
+  <Project Name="Factorial" Path="Factorial/Factorial.project" Active="No"/>
+  <Project Name="SectionChallenge" Path="SectionChallenge/SectionChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -19,6 +26,13 @@
       <Project Name="FunctionParameters" ConfigName="Debug"/>
       <Project Name="DefaultArguments" ConfigName="Debug"/>
       <Project Name="FunctinoOverloading" ConfigName="Debug"/>
+      <Project Name="ArraysAndFunctions" ConfigName="Debug"/>
+      <Project Name="PassByReference" ConfigName="Debug"/>
+      <Project Name="OpenCVtest" ConfigName="Debug"/>
+      <Project Name="ScopeExample" ConfigName="Debug"/>
+      <Project Name="Fibonacci" ConfigName="Debug"/>
+      <Project Name="Factorial" ConfigName="Debug"/>
+      <Project Name="SectionChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -30,6 +44,13 @@
       <Project Name="FunctionParameters" ConfigName="Release"/>
       <Project Name="DefaultArguments" ConfigName="Release"/>
       <Project Name="FunctinoOverloading" ConfigName="Release"/>
+      <Project Name="ArraysAndFunctions" ConfigName="Release"/>
+      <Project Name="PassByReference" ConfigName="Release"/>
+      <Project Name="OpenCVtest" ConfigName="Release"/>
+      <Project Name="ScopeExample" ConfigName="Release"/>
+      <Project Name="Fibonacci" ConfigName="Release"/>
+      <Project Name="Factorial" ConfigName="Release"/>
+      <Project Name="SectionChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

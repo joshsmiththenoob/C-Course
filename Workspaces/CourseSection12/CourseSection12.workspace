@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CourseSection12" Database="" Version="10000">
+  <Project Name="AccessPointerAddress" Path="AccessPointerAddress/AccessPointerAddress.project" Active="No"/>
+  <Project Name="SimplePointers" Path="SimplePointers/SimplePointers.project" Active="No"/>
+  <Project Name="Dereference" Path="Dereference/Dereference.project" Active="No"/>
+  <Project Name="DynamicMemory" Path="DynamicMemory/DynamicMemory.project" Active="No"/>
+  <Project Name="PointerArithmetic" Path="PointerArithmetic/PointerArithmetic.project" Active="No"/>
+  <Project Name="PassingPointers2" Path="PassingPointers2/PassingPointers2.project" Active="No"/>
+  <Project Name="PassingPointers1" Path="PassingPointers1/PassingPointers1.project" Active="No"/>
+  <Project Name="PassingPointers3" Path="PassingPointers3/PassingPointers3.project" Active="No"/>
+  <Project Name="ReturnPointer" Path="ReturnPointer/ReturnPointer.project" Active="No"/>
+  <Project Name="SectionChallengeReverseArray" Path="SectionChallengeReverseArray/SectionChallengeReverseArray.project" Active="No"/>
+  <Project Name="ExerciseReverseString" Path="ExerciseReverseString/ExerciseReverseString.project" Active="No"/>
+  <Project Name="References1" Path="References/References.project" Active="Yes"/>
+  <Project Name="References2" Path="References2/References2.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="AccessPointerAddress" ConfigName="Debug"/>
+      <Project Name="SimplePointers" ConfigName="Debug"/>
+      <Project Name="Dereference" ConfigName="Debug"/>
+      <Project Name="DynamicMemory" ConfigName="Debug"/>
+      <Project Name="PointerArithmetic" ConfigName="Debug"/>
+      <Project Name="PassingPointers2" ConfigName="Debug"/>
+      <Project Name="PassingPointers1" ConfigName="Debug"/>
+      <Project Name="PassingPointers3" ConfigName="Debug"/>
+      <Project Name="ReturnPointer" ConfigName="Debug"/>
+      <Project Name="SectionChallengeReverseArray" ConfigName="Debug"/>
+      <Project Name="ExerciseReverseString" ConfigName="Debug"/>
+      <Project Name="References1" ConfigName="Debug"/>
+      <Project Name="References2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="AccessPointerAddress" ConfigName="Release"/>
+      <Project Name="SimplePointers" ConfigName="Release"/>
+      <Project Name="Dereference" ConfigName="Release"/>
+      <Project Name="DynamicMemory" ConfigName="Release"/>
+      <Project Name="PointerArithmetic" ConfigName="Release"/>
+      <Project Name="PassingPointers2" ConfigName="Release"/>
+      <Project Name="PassingPointers1" ConfigName="Release"/>
+      <Project Name="PassingPointers3" ConfigName="Release"/>
+      <Project Name="ReturnPointer" ConfigName="Release"/>
+      <Project Name="SectionChallengeReverseArray" ConfigName="Release"/>
+      <Project Name="ExerciseReverseString" ConfigName="Release"/>
+      <Project Name="References1" ConfigName="Release"/>
+      <Project Name="References2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
