@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ DeclareClassAndObjects - Debug ]----------"
-	@cd "DeclareClassAndObjects" && "$(MAKE)" -f  "DeclareClassAndObjects.mk"
+	@echo "----------Building project:[ DafaultConstructor - Debug ]----------"
+	@cd "DafaultConstructor" && "$(MAKE)" -f  "DafaultConstructor.mk"
 clean:
-	@echo "----------Cleaning project:[ DeclareClassAndObjects - Debug ]----------"
-	@cd "DeclareClassAndObjects" && "$(MAKE)" -f  "DeclareClassAndObjects.mk" clean
+	@echo "----------Cleaning project:[ DafaultConstructor - Debug ]----------"
+	@cd "DafaultConstructor" && "$(MAKE)" -f  "DafaultConstructor.mk" clean

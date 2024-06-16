@@ -7,12 +7,12 @@
   <Project Name="CompileWarnings" Path="CompileWarnings/CompileWarnings.project" Active="No"/>
   <Project Name="LinkerError" Path="LinkerError/LinkerError.project" Active="No"/>
   <Project Name="Section4Challenge" Path="Section4Challenge/Section4Challenge.project" Active="No"/>
-  <Project Name="IncludePreProcessorDirective" Path="IncludePreProcessorDirective/IncludePreProcessorDirective.project" Active="No"/>
+  <Project Name="IncludePreProcessorDirective" Path="IncludePreProcessorDirective/IncludePreProcessorDirective.project" Active="Yes"/>
   <Project Name="Namespaces" Path="Namespaces/Namespaces.project" Active="No"/>
   <Project Name="BasicIO" Path="CinandCout/CinandCout.project" Active="No"/>
   <Project Name="InitializingVariables" Path="VariablesConstant/VariablesConstant.project" Active="No"/>
   <Project Name="GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
-  <Project Name="PrimitiveDataType" Path="DecimaltoBit/DecimaltoBit.project" Active="Yes"/>
+  <Project Name="PrimitiveDataType" Path="DecimaltoBit/DecimaltoBit.project" Active="No"/>
   <Project Name="SizeofOperator" Path="SizeofOperator/SizeofOperator.project" Active="No"/>
   <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
   <Project Name="ConstantsChallenge" Path="ConstantsChallenge/ConstantsChallenge.project" Active="No"/>

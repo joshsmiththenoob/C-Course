@@ -6,15 +6,15 @@
 ProjectName            :=IncludePreProcessorDirective
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=D:/Workspaces/Workspaces1
-ProjectPath            :=D:/Workspaces/Workspaces1/IncludePreProcessorDirective
+WorkspacePath          :=D:/C-Course/Workspaces/Workspaces1
+ProjectPath            :=D:/C-Course/Workspaces/Workspaces1/IncludePreProcessorDirective
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/IncludePreProcessorDirective
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=smithfu
-Date                   :=14/10/2023
+Date                   :=13/06/2024
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=D:/Workspaces/Workspaces1/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=D:/C-Course/Workspaces/Workspaces1/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -40,12 +40,12 @@ PCHCompileFlags        :=
 RcCmpOptions           := 
 RcCompilerName         :=C:/mingw64/bin/windres.exe
 LinkOptions            :=  
-IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
+IncludePath            := $(IncludeSwitch)D:\OpenCV\opencv\build\include  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
 RcIncludePath          := 
 Libs                   := 
 ArLibs                 :=  
-LibPath                := $(LibraryPathSwitch). 
+LibPath                :=$(LibraryPathSwitch)D:\OpenCV\opencv\build\x64\vc16\lib  $(LibraryPathSwitch). 
 
 ##
 ## Common variables
@@ -96,12 +96,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Workspaces/Workspaces1/IncludePreProcessorDirective/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/C-Course/Workspaces/Workspaces1/IncludePreProcessorDirective/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/MathExample.cpp$(ObjectSuffix): MathExample.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Workspaces/Workspaces1/IncludePreProcessorDirective/MathExample.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/MathExample.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/C-Course/Workspaces/Workspaces1/IncludePreProcessorDirective/MathExample.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/MathExample.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/MathExample.cpp$(PreprocessSuffix): MathExample.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/MathExample.cpp$(PreprocessSuffix) MathExample.cpp
 

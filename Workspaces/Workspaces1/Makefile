@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ PrimitiveDataType - Debug ]----------"
-	@cd "DecimaltoBit" && "$(MAKE)" -f  "PrimitiveDataType.mk"
+	@echo "----------Building project:[ IncludePreProcessorDirective - Debug ]----------"
+	@cd "IncludePreProcessorDirective" && "$(MAKE)" -f  "IncludePreProcessorDirective.mk"
 clean:
-	@echo "----------Cleaning project:[ PrimitiveDataType - Debug ]----------"
-	@cd "DecimaltoBit" && "$(MAKE)" -f  "PrimitiveDataType.mk" clean
+	@echo "----------Cleaning project:[ IncludePreProcessorDirective - Debug ]----------"
+	@cd "IncludePreProcessorDirective" && "$(MAKE)" -f  "IncludePreProcessorDirective.mk" clean
