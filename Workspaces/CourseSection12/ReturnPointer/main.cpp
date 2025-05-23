@@ -3,6 +3,13 @@
 // Note: !! Don't return the pointer that point to the function local variable -> because local variable will be disappear after function call
 
 #include <iostream>
+#include <iostream>
+#include <iostream>
+#include <iostream>
+#include <iostream>
+#include <iostream>
+#include <iostream>
+#include <iostream>
 
 // function prototype
 int *create_array(std::size_t size, int init_value = 0); // the function return pointer(address) almost use on returning dynamically allocated address 

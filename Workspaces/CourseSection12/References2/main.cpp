@@ -22,5 +22,8 @@ int main(){
     
     std::cout << "\n --------------- Works! -----------------" << std::endl;
     
+    
+    std::cout << &ref << std::endl;
+    std::cout << &num << std::endl;
     return 0;
 }

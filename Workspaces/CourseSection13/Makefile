@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ DafaultConstructor - Debug ]----------"
-	@cd "DafaultConstructor" && "$(MAKE)" -f  "DafaultConstructor.mk"
+	@echo "----------Building project:[ ConstinClasses - Debug ]----------"
+	@cd "ConstinClasses" && "$(MAKE)" -f  "ConstinClasses.mk"
 clean:
-	@echo "----------Cleaning project:[ DafaultConstructor - Debug ]----------"
-	@cd "DafaultConstructor" && "$(MAKE)" -f  "DafaultConstructor.mk" clean
+	@echo "----------Cleaning project:[ ConstinClasses - Debug ]----------"
+	@cd "ConstinClasses" && "$(MAKE)" -f  "ConstinClasses.mk" clean

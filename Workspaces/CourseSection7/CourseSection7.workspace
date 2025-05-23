@@ -2,8 +2,8 @@
 <CodeLite_Workspace Name="CourseSection7" Database="" Version="10000">
   <Project Name="Arrays" Path="Arrays/Arrays.project" Active="No"/>
   <Project Name="MultidimensionArrays" Path="MultidimensionArrays/MultidimensionArrays.project" Active="No"/>
-  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
-  <Project Name="VectorsChallenge" Path="VectorsChallenge/VectorsChallenge.project" Active="Yes"/>
+  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="Yes"/>
+  <Project Name="VectorsChallenge" Path="VectorsChallenge/VectorsChallenge.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

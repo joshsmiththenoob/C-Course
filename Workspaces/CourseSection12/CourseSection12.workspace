@@ -11,8 +11,8 @@
   <Project Name="ReturnPointer" Path="ReturnPointer/ReturnPointer.project" Active="No"/>
   <Project Name="SectionChallengeReverseArray" Path="SectionChallengeReverseArray/SectionChallengeReverseArray.project" Active="No"/>
   <Project Name="ExerciseReverseString" Path="ExerciseReverseString/ExerciseReverseString.project" Active="No"/>
-  <Project Name="References1" Path="References/References.project" Active="Yes"/>
-  <Project Name="References2" Path="References2/References2.project" Active="No"/>
+  <Project Name="References1" Path="References/References.project" Active="No"/>
+  <Project Name="References2" Path="References2/References2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

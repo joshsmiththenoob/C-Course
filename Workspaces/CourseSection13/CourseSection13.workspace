@@ -6,7 +6,16 @@
   <Project Name="ImplementingMethods1" Path="ImplementingMethods1/ImplementingMethods1.project" Active="No"/>
   <Project Name="ImplementingMethods2" Path="ImplementingMethods2/ImplementingMethods2.project" Active="No"/>
   <Project Name="ConstructorsAndDestructors" Path="ConstructorsAndDestructors/ConstructorsAndDestructors.project" Active="No"/>
-  <Project Name="DafaultConstructor" Path="DafaultConstructor/DafaultConstructor.project" Active="Yes"/>
+  <Project Name="DafaultConstructor" Path="DafaultConstructor/DafaultConstructor.project" Active="No"/>
+  <Project Name="Testing" Path="Testing/Testing.project" Active="No"/>
+  <Project Name="ConstructuorInitializationLists" Path="ConstructuorInitializationLists/ConstructuorInitializationLists.project" Active="No"/>
+  <Project Name="DelegatingConstructors" Path="DelegatingConstructors/DelegatingConstructors.project" Active="No"/>
+  <Project Name="DefaultConstructorParameters" Path="DefaultConstructorParameters/DefaultConstructorParameters.project" Active="No"/>
+  <Project Name="CopyConstructor" Path="CopyConstructor/CopyConstructor.project" Active="No"/>
+  <Project Name="ShallowCopy" Path="ShallowCopy/ShallowCopy.project" Active="No"/>
+  <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
+  <Project Name="MoveConstructor2" Path="MoveConstructor2/MoveConstructor2.project" Active="No"/>
+  <Project Name="ConstinClasses" Path="ConstinClasses/ConstinClasses.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -17,6 +26,15 @@
       <Project Name="ImplementingMethods2" ConfigName="Debug"/>
       <Project Name="ConstructorsAndDestructors" ConfigName="Debug"/>
       <Project Name="DafaultConstructor" ConfigName="Debug"/>
+      <Project Name="Testing" ConfigName="Debug"/>
+      <Project Name="ConstructuorInitializationLists" ConfigName="Debug"/>
+      <Project Name="DelegatingConstructors" ConfigName="Debug"/>
+      <Project Name="DefaultConstructorParameters" ConfigName="Debug"/>
+      <Project Name="CopyConstructor" ConfigName="Debug"/>
+      <Project Name="ShallowCopy" ConfigName="Debug"/>
+      <Project Name="MoveConstructor" ConfigName="Debug"/>
+      <Project Name="MoveConstructor2" ConfigName="Debug"/>
+      <Project Name="ConstinClasses" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -27,6 +45,15 @@
       <Project Name="ImplementingMethods2" ConfigName="Release"/>
       <Project Name="ConstructorsAndDestructors" ConfigName="Release"/>
       <Project Name="DafaultConstructor" ConfigName="Release"/>
+      <Project Name="Testing" ConfigName="Release"/>
+      <Project Name="ConstructuorInitializationLists" ConfigName="Release"/>
+      <Project Name="DelegatingConstructors" ConfigName="Release"/>
+      <Project Name="DefaultConstructorParameters" ConfigName="Release"/>
+      <Project Name="CopyConstructor" ConfigName="Release"/>
+      <Project Name="ShallowCopy" ConfigName="Release"/>
+      <Project Name="MoveConstructor" ConfigName="Release"/>
+      <Project Name="MoveConstructor2" ConfigName="Release"/>
+      <Project Name="ConstinClasses" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
