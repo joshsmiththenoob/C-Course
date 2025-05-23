@@ -1,0 +1,1 @@
+../build-Debug/MoveConstructor2/main.cpp.o ../build-Debug/MoveConstructor2/MyClass.cpp.o   
