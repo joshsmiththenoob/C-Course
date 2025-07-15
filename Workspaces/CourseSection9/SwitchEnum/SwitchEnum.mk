@@ -6,15 +6,15 @@
 ProjectName            :=SwitchEnum
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=D:/Workspaces/CourseSection9
-ProjectPath            :=D:/Workspaces/CourseSection9/SwitchEnum
+WorkspacePath          :=C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection9
+ProjectPath            :=C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection9/SwitchEnum
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/SwitchEnum
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=smithfu
-Date                   :=15/04/2024
+User                   :=ai
+Date                   :=08/07/2025
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=D:/Workspaces/CourseSection9/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection9/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Workspaces/CourseSection9/SwitchEnum/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection9/SwitchEnum/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

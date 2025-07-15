@@ -11,7 +11,7 @@ int main(){
         left, right, up , down
     };
     
-    Direction heading {up}; // Declare the NEW enumeration: Direction type to variable heading and initialize it to left = const int type
+    Direction heading {right}; // Declare the NEW enumeration: Direction type to variable heading and initialize it to left = const int type
     
     
     // Switch off (Using Switch Case) of variable:heading 

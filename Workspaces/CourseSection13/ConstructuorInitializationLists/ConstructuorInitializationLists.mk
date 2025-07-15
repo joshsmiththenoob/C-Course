@@ -6,15 +6,15 @@
 ProjectName            :=ConstructuorInitializationLists
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=D:/C-Course/Workspaces/CourseSection13
-ProjectPath            :=D:/C-Course/Workspaces/CourseSection13/ConstructuorInitializationLists
+WorkspacePath          :=C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection13
+ProjectPath            :=C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection13/ConstructuorInitializationLists
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/ConstructuorInitializationLists
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=smithfu
-Date                   :=22/06/2024
+User                   :=ai
+Date                   :=04/07/2025
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=D:/C-Course/Workspaces/CourseSection13/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection13/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -40,12 +40,12 @@ PCHCompileFlags        :=
 RcCmpOptions           := 
 RcCompilerName         :=C:/mingw64/bin/windres.exe
 LinkOptions            :=  
-IncludePath            := $(IncludeSwitch)D:\OpenCV\opencv\build\include  $(IncludeSwitch). $(IncludeSwitch). 
+IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
 RcIncludePath          := 
 Libs                   := 
 ArLibs                 :=  
-LibPath                :=$(LibraryPathSwitch)D:\OpenCV\opencv\build\x64\vc16\lib  $(LibraryPathSwitch). 
+LibPath                := $(LibraryPathSwitch). 
 
 ##
 ## Common variables
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/C-Course/Workspaces/CourseSection13/ConstructuorInitializationLists/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection13/ConstructuorInitializationLists/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

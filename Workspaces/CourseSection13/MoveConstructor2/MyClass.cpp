@@ -19,22 +19,22 @@ void Move::set_data_value(int d){
 Move::Move(int d){
     data = new int; // allocate storage on the heap dynamically to pointer of integer
     *data = d; // assign dereference of point of integer a value
-    std::cout << "Consructor for: " << d << std::endl;
+    std::cout << "Consructor for: " << d << "and pointer address is: " << data <<  std::endl;
 }
 
 
 // Copy Constructor: Delegate origin constructor to initalize object by source object 
 Move::Move(const Move &source)
-    : Move {*source.data}{
+    : Move {*source.data} {
         std::cout << "Copy Constructor - deep copy for: " << *data << std::endl;
-    }
+}
     
     
 // Move Constructor: Using tempary object(R-value) to get the same value refered by same address
 Move::Move(Move &&source) noexcept
-        : data {source.data}{ // Using initializer list to initalize attribute directly 
+        : data {source.data}{  // Using initializer list to initalize attribute directly and it didn't utilize origin constructor to construct object, it use "Default constructor" instead.
             std::cout << "Move Constructor - Moving resource: " << *data << " from source data: " << source.data << std::endl;
-            source.data = nullptr; // Steal the data from source and null the pointer of the source object out = Move data
+            source.data = nullptr;  // Steal the data from source and null the pointer of the source object out = Move data
         } 
 
 
