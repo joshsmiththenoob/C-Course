@@ -19,7 +19,7 @@ public:
     
     
     // Overloaded assignment operator
-    // returns Mystring (this = myself) object by reference
+    // returns Mystring (this = myself) object by reference -> left hand side == current object
     Mystring& operator=(const Mystring &rhs);                      // Copy Assignment
     
 };

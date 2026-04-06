@@ -64,16 +64,20 @@ const char *Mystring::get_str() const {
 
  
  
-    // Overloaded assignment operator
-    // returns Mystring (this = myself) object by reference
+// Overloaded assignment operator
+// returns Mystring (this = myself) object by reference
 Mystring& Mystring::operator=(const Mystring &rhs){  // Copy Assignment
-    if (this == &rhs)
-        return *this;
+    std::cout << "Copy Assignment" << std::endl;
+
+    if (this == &rhs) // Return current object if current object euqal rand-hand-side object
+        return *this; // Note: we need to return "reference(alias of that value(object))", not "pointer (memory address)"
         
     // First, we need to de-allocate the origin value where the memory address got from str (the array of characters pointer)
-    delete [] str;
+    delete [] this->str; // "this" makes more clear that we de-allocate the deference of str == array of character
     
     // Then, assign the str to allocate the memory address that rhs.str got on the heap (including null terminator)
     str = new char [std::strlen(rhs.str) + 1 ];
+    std::strcpy(this->str, rhs.str);  // THe string copy function simply copies one character at a time until it hits the terminating chracter.
+    return *this;
         
 }
