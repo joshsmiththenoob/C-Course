@@ -3,19 +3,19 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Mystring-start
+ProjectName            :=Mystring-move-assignment
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=D:/Project/CppCourse/C-Course/Workspaces/CourseSection14
-ProjectPath            :=D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-start
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Mystring-start
+ProjectPath            :=D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-move-assignment
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Mystring-move-assignment
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=joshs
-Date                   :=22/04/2026
-CodeLitePath           :=D:/CodeLite/share/codelite
+Date                   :=04/05/2026
+CodeLitePath           :=D:/Tools/CodeLite/share/codelite
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
 SharedObjectLinkerName :=C:/mingw64/bin/g++.exe -shared -fPIC
@@ -53,7 +53,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := C:/mingw64/bin/ar.exe -r
 CXX      := C:/mingw64/bin/g++.exe
 CC       := C:/mingw64/bin/gcc.exe
-CXXFLAGS :=  -gdwarf-2 -O0 -Wall $(Preprocessors)
+CXXFLAGS :=  -O0 -gdwarf-2 -std=c++17 -Wall $(Preprocessors)
 CFLAGS   :=  -gdwarf-2 -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := C:/mingw64/bin/as.exe
@@ -95,12 +95,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-start/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-move-assignment/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix): Mystring.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-start/Mystring.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-move-assignment/Mystring.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Mystring.cpp$(PreprocessSuffix): Mystring.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Mystring.cpp$(PreprocessSuffix) Mystring.cpp
 

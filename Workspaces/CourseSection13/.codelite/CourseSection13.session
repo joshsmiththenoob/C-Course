@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\ai\Desktop\smithfu\repositories\C-Course\Workspaces\CourseSection13\CourseSection13.workspace">
-  <int Value="3" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\ai\Desktop\smithfu\repositories\C-Course\Workspaces\CourseSection13\CourseSection13.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray">
-    <TabInfo>
-      <wxString Value="C:\Users\ai\Desktop\smithfu\repositories\C-Course\Workspaces\CourseSection13\Testing\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\ai\Desktop\smithfu\repositories\C-Course\Workspaces\CourseSection13\Challenge\Movies.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\ai\Desktop\smithfu\repositories\C-Course\Workspaces\CourseSection13\StaticClassMembers\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\ai\Desktop\smithfu\repositories\C-Course\Workspaces\CourseSection13\StaticClassMembers\Player.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-  </TabInfoArray>
+<Session Name="D:\Project\CppCourse\C-Course\Workspaces\CourseSection13\CourseSection13.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="D:\Project\CppCourse\C-Course\Workspaces\CourseSection13\CourseSection13.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray"/>
   <SerializedObject Name="m_breakpoints">
     <long Value="7" Name="Count"/>
     <SerializedObject Name="Breakpoint0">

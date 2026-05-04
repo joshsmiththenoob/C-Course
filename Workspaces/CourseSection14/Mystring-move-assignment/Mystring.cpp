@@ -37,13 +37,13 @@ Mystring::Mystring(const Mystring &source)
     }
 
 
-// Move Constructor
-Mystring::Mystring(Mystring &&source)
-    :str(source.str){
-        source.str = nullptr;  // we need to null out the pointer of temporary object, that's why we don't set the argument as const class
-        std::cout << "Move constructor Used." << std::endl;
+// Move Constructor : Steal the pointer attribute of r-value object(temporary object) 
+Mystring::Mystring(Mystring &&source) // parameter would be r-value references (represented by double amphersands)
+    :str(source.str){ // Steal the pointer by using the initialization list
+        // After stealing the pointer of the source (temporary object) -> need to null out the source's pointer
+        source.str = nullptr;
+        std::cout << " Move c onstructor used" << std::endl;
     }
-
 
 
 // Desctructor
@@ -90,3 +90,23 @@ Mystring& Mystring::operator=(const Mystring &rhs){  // Copy Assignment
     return *this;
         
 }
+
+ 
+ Mystring& Mystring::operator=(Mystring &&rhs){ // Move Assignment -> expecting r-value references
+    std::cout << "Move Assignment " << std::endl; 
+    
+    if (this == &rhs)
+        return *this;
+        
+    // De-allocate the origin deference of pointer on the heap
+    delete[] this -> str; 
+        
+    // Steal the pointer from  r-value object
+    this -> str = rhs.str;
+   // After stealing the pointer, set source.str to nullptr.
+    // Otherwise, when the moved-from object is destroyed,
+    // it would delete the same heap memory.
+    rhs.str = nullptr;
+     
+     return *this;
+ }

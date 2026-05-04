@@ -9,9 +9,9 @@ private:
 public:
     Mystring();                                                 // No-args constructor
     Mystring(const char *s);                            // Overloaded constructor
-    Mystring(const Mystring &source);           // Copy constru ctor11
-    Mystring(Mystring &&source);                   // Move constructor - > need to change any member of temporary object
-
+    Mystring(const Mystring &source);           // Copy constructor
+    
+    Mystring(Mystring &&source);          // Move constructor: ofc, the parameter is reference of r-value (double amphersands)
     
     ~Mystring();
     
@@ -23,6 +23,8 @@ public:
     // Overloaded assignment operator
     // returns Mystring (this = myself) object by reference -> left hand side == current object
     Mystring& operator=(const Mystring &rhs);                      // Copy Assignment
+    Mystring& operator=(Mystring &&rhs);                            // Move Assignment
+    
     
 };
 
