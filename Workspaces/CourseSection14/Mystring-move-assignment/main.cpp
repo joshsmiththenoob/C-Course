@@ -14,6 +14,11 @@ int main(){
     a = Mystring{"Hola"};       // Overloaded constructor then move assignment  -> no name(variable name) value == r -value -> Move Semantics !!!
     a = "Bonjour";                  // Overloaded constructor then move assignment
     
+    int b[] =  {1, 2, 3};;
+    
+    std::cout <<  &b << std::endl;
+    std::cout <<  b << std::endl;
+    
     
     
     

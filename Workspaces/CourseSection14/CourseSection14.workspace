@@ -2,21 +2,23 @@
 <CodeLite_Workspace Name="CourseSection14" Database="" Version="10000">
   <Project Name="Mystring-start" Path="Mystring-start/Mystring-start.project" Active="No"/>
   <Project Name="Mystring-copy-assignment" Path="Mystring-copy-assignment/Mystring-copy-assignment.project" Active="No"/>
-  <Project Name="Mystring-move-assignment" Path="Mystring-move-assignment/Mystring-move-assignment.project" Active="Yes"/>
+  <Project Name="Mystring-move-assignment" Path="Mystring-move-assignment/Mystring-move-assignment.project" Active="No"/>
+  <Project Name="Mystring-operator-methods" Path="CourseSection14/CourseSection14.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug">
-      <Environment/>
-      <Project Name="Mystring-start" ConfigName="Debug"/>
-      <Project Name="Mystring-copy-assignment" ConfigName="Debug"/>
-      <Project Name="Mystring-move-assignment" ConfigName="Debug"/>
-      <Project Name="Mystring-move-assignment" ConfigName="Debug"/>
-    </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Mystring-start" ConfigName="Release"/>
       <Project Name="Mystring-copy-assignment" ConfigName="Release"/>
       <Project Name="Mystring-move-assignment" ConfigName="Release"/>
       <Project Name="Mystring-move-assignment" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Mystring-start" ConfigName="Debug"/>
+      <Project Name="Mystring-copy-assignment" ConfigName="Debug"/>
+      <Project Name="Mystring-move-assignment" ConfigName="Debug"/>
+      <Project Name="Mystring-move-assignment" ConfigName="Debug"/>
+      <Project Name="Mystring-operator-methods" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
