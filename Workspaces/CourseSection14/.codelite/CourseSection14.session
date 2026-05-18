@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="D:\Project\CppCourse\C-Course\Workspaces\CourseSection14\CourseSection14.workspace">
-  <int Value="1" Name="m_selectedTab"/>
+  <int Value="2" Name="m_selectedTab"/>
   <wxString Value="D:\Project\CppCourse\C-Course\Workspaces\CourseSection14\CourseSection14.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
@@ -12,15 +12,15 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="D:\Project\CppCourse\C-Course\Workspaces\CourseSection14\CourseSection14\Mystring.h" Name="FileName"/>
-      <int Value="21" Name="FirstVisibleLine"/>
-      <int Value="39" Name="CurrentLine"/>
+      <int Value="12" Name="FirstVisibleLine"/>
+      <int Value="33" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="D:\Project\CppCourse\C-Course\Workspaces\CourseSection14\CourseSection14\Mystring.cpp" Name="FileName"/>
-      <int Value="78" Name="FirstVisibleLine"/>
-      <int Value="88" Name="CurrentLine"/>
+      <int Value="111" Name="FirstVisibleLine"/>
+      <int Value="128" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

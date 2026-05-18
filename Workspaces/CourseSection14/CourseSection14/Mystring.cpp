@@ -110,3 +110,20 @@ Mystring& Mystring::operator=(const Mystring &rhs){  // Copy Assignment
      
      return *this;
  }
+ 
+ 
+ 
+ // Overloaded Unary operator '-'
+// Note: Unary operators as class member methods take no parameter (cause we use *this from origin Mystring class)
+// return new Mystring object by value -> We're going to take the origin strings, make a new one, return it.
+
+
+
+
+
+// Overloaded Binary operator '+'
+// Note: Binary operatrs as class member methods take one parameter then we don't mess with the source(rhs) Mystring object from parameter 
+
+bool Mystring::operator==(const Mystring &rhs) const {/ Binary Equality: comparisi
+    return (std::strcmp(this->str, rhs.str) == 0);
+}

@@ -33,9 +33,8 @@ public:
     
     // Overloaded Binary operator '+'
     // Note: Binary operatrs as class member methods take one parameter then we don't mess with the source(rhs) Mystring object from parameter 
-    Mystring operator+(const Mystring &rhs);                  // Binary Plus: concatenate
-    
-    
+    Mystring operator+(const Mystring &rhs) const;                  // Binary Plus: concatenate
+    bool operator==(const Mystring &rhs) const;                        // Binary Equality: comparision
 };
 
 
