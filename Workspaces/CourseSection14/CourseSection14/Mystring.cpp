@@ -121,9 +121,28 @@ Mystring& Mystring::operator=(const Mystring &rhs){  // Copy Assignment
 
 
 
-// Overloaded Binary operator '+'
+// Overloaded Binary operator '=' : equality
 // Note: Binary operatrs as class member methods take one parameter then we don't mess with the source(rhs) Mystring object from parameter 
 
 bool Mystring::operator==(const Mystring &rhs) const {/ Binary Equality: comparisi
     return (std::strcmp(this->str, rhs.str) == 0);
 }
+
+// Overloaded Unary operator '-': make lower case
+Mytring Mystring::operator-() const {  // the const in the end of method/function: we don't want to change our current object.
+    // 1. Make a copy of whatever is in the current object -> need to create a new space to copy -> allocate the new address from heap
+    char *buff = new char[std::strlen(this->str) + 1];
+    std::strcpy(buff, this->str);
+    // 2. Make that lower case
+    for (size_t i=0; i < std::strlen(buff); i++){
+        buff[i] = std::tolower(buff[i]);
+    }
+    // 3. Then create a new object from it.
+    Mystring temp {buff}
+    
+    // 4. De-allocate the copy we create from the heap
+    delete [] buff;
+    
+    
+    return temp;
+} 
