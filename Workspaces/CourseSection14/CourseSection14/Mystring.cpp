@@ -124,12 +124,12 @@ Mystring& Mystring::operator=(const Mystring &rhs){  // Copy Assignment
 // Overloaded Binary operator '=' : equality
 // Note: Binary operatrs as class member methods take one parameter then we don't mess with the source(rhs) Mystring object from parameter 
 
-bool Mystring::operator==(const Mystring &rhs) const {/ Binary Equality: comparisi
+bool Mystring::operator==(const Mystring &rhs) const { // Binary Equality: comparison
     return (std::strcmp(this->str, rhs.str) == 0);
 }
 
 // Overloaded Unary operator '-': make lower case
-Mytring Mystring::operator-() const {  // the const in the end of method/function: we don't want to change our current object.
+Mystring Mystring::operator-() const {  // the const in the end of method/function: we don't want to change our current object.
     // 1. Make a copy of whatever is in the current object -> need to create a new space to copy -> allocate the new address from heap
     char *buff = new char[std::strlen(this->str) + 1];
     std::strcpy(buff, this->str);
@@ -138,7 +138,7 @@ Mytring Mystring::operator-() const {  // the const in the end of method/functio
         buff[i] = std::tolower(buff[i]);
     }
     // 3. Then create a new object from it.
-    Mystring temp {buff}
+    Mystring temp {buff};
     
     // 4. De-allocate the copy we create from the heap
     delete [] buff;
@@ -146,3 +146,25 @@ Mytring Mystring::operator-() const {  // the const in the end of method/functio
     
     return temp;
 } 
+
+
+// Overloaded Binary operator '+': concatenate two strings
+Mystring Mystring::operator+(const Mystring &rhs) const{
+    // 1. Create new object by value? need to make a new area in memory for characters on the heap -> how big is it going to be? the length of two strings + 1 (null termintaor)
+    char *buff = new char[std::strlen(this->str) + std::strlen(rhs.str) +1];
+     
+     // 2. Copy the first string
+     std::strcpy(buff, this->str);
+     
+     // 3. Concatenate into buff from second string (rhs.str)
+     std::strcat(buff, rhs.str);
+     
+     // 4. Create a new object we gonna return.
+     Mystring temp {buff};
+     
+     // 5. De-allocate the copy we create from the heap
+     delete [] buff;
+     
+     return temp;
+     
+}

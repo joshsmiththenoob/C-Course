@@ -1,0 +1,1 @@
+../build-Debug/CourseSection14/main.cpp.o ../build-Debug/CourseSection14/Mystring.cpp.o   
