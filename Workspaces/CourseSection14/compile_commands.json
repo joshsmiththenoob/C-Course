@@ -1,5 +1,20 @@
 [
   {
+    "command": "C:/mingw64/bin/g++.exe -c D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\Mystring.h -o D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\Mystring.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -gdwarf-2  -O0  -Wall",
+    "directory": "D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions",
+    "file": "D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\Mystring.h"
+  },
+  {
+    "command": "C:/mingw64/bin/g++.exe -c D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\main.cpp -o D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -gdwarf-2  -O0  -Wall",
+    "directory": "D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions",
+    "file": "D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\main.cpp"
+  },
+  {
+    "command": "C:/mingw64/bin/g++.exe -c D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\Mystring.cpp -o D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\Mystring.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -gdwarf-2  -O0  -Wall",
+    "directory": "D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions",
+    "file": "D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-operator-functions\\Mystring.cpp"
+  },
+  {
     "command": "C:/mingw64/bin/g++.exe -c D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-move-assignment\\Mystring.h -o D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-move-assignment\\Mystring.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall",
     "directory": "D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-move-assignment",
     "file": "D:\\Project\\CppCourse\\C-Course\\Workspaces\\CourseSection14\\Mystring-move-assignment\\Mystring.h"
