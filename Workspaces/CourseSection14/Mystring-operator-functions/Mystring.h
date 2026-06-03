@@ -7,7 +7,7 @@ class Mystring
     // It doesn't really matter where you put these friend declarations in. -> doesn't matter if you put them in private/public area.
     // Overloaded Binary operator '==' as non-member function
     friend bool operator==(const Mystring &lhs, const Mystring &rhs);
-    // Overloaded Unary operatr '-' as non-member function
+    // Overloaded Unary operator '-' as non-member function
     friend Mystring operator-(const Mystring &obj);
     // Overloaded Binary operator '+' as non-member function
     friend Mystring operator+(const Mystring &lhs, const Mystring &rhs);
@@ -34,15 +34,6 @@ public:
     Mystring& operator=(const Mystring &rhs);                      // Copy Assignment
     Mystring& operator=(Mystring &&rhs);                            // Move Assignment
     
-    
-    // Overloaded Unary operator '-'
-    
-//    Mystring operator-() const;                                         // Unary Minus: make lowercase
-    
-//    // Overloaded Binary operator '+'
-//    // Note: Binary operatrs as class member methods take one parameter then we don't mess with the source(rhs) Mystring object from parameter 
-//    Mystring operator+(const Mystring &rhs) const;                  // Binary Plus: concatenate
-//    bool operator==(const Mystring &rhs) const;                        // Binary Equality: comparision
 };
 
 

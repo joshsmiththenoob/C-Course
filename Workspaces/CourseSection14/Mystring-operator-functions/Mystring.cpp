@@ -111,21 +111,29 @@ Mystring& Mystring::operator=(const Mystring &rhs){  // Copy Assignment
      return *this;
  }
  
+ // Overloaded Binary operator '=': euqality as non-member function -> it's friend function of Mystring class declared in .h file
+ bool operator==(const Mystring &lhs, const Mystring &rhs){
+     return (std::strcmp(lhs.str, rhs.str) == 0);
+ }
  
- 
- // Overloaded Unary operator '-'
-// Note: Unary operators as class member methods take no parameter (cause we use *this from origin Mystring class)
-// return new Mystring object by value -> We're going to take the origin strings, make a new one, return it.
-
-
-
-
-
-// Overloaded Binary operator '=' : equality
-// Note: Binary operatrs as class member methods take one parameter then we don't mess with the source(rhs) Mystring object from parameter 
-
-bool Mystring::operator==(const Mystring &rhs) const { // Binary Equality: comparison
-    return (std::strcmp(this->str, rhs.str) == 0);
+// Overloaded Unary operator '-': make lower case as non-member function
+Mystring operator-(const Mystring &obj){
+    // 1. Make a copy from obj
+    char *buff = new char[std::strlen(obj.str) + 1];
+    std::strcpy(buff, obj.str);
+    // 2. Transform to lowercase
+    for (size_t i=0; i < std::strlen(buff); i++){
+        buff[i] = std::tolower(buff[i]);
+    }
+    
+    // 3. Then create a object from it
+    Mystring temp {buff};
+    
+    // 4. !!De-allocate the copy from the heap!!
+    delete [] buff;
+    
+    return temp;
+    
 }
 
 // Overloaded Unary operator '-': make lower case
