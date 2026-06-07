@@ -8,7 +8,7 @@ class Mystring
     // Overloaded Binary operator '==' as non-member function
     friend bool operator==(const Mystring &lhs, const Mystring &rhs);
     // Overloaded Unary operator '-' as non-member function
-    friend Mystring operator-(const Mystring &obj);
+     friend Mystring operator-(const Mystring &obj);
     // Overloaded Binary operator '+' as non-member function
     friend Mystring operator+(const Mystring &lhs, const Mystring &rhs);
     

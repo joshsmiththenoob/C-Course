@@ -136,43 +136,20 @@ Mystring operator-(const Mystring &obj){
     
 }
 
-// Overloaded Unary operator '-': make lower case
-Mystring Mystring::operator-() const {  // the const in the end of method/function: we don't want to change our current object.
-    // 1. Make a copy of whatever is in the current object -> need to create a new space to copy -> allocate the new address from heap
-    char *buff = new char[std::strlen(this->str) + 1];
-    std::strcpy(buff, this->str);
-    // 2. Make that lower case
-    for (size_t i=0; i < std::strlen(buff); i++){
-        buff[i] = std::tolower(buff[i]);
-    }
-    // 3. Then create a new object from it.
-    Mystring temp {buff};
+
+// Overloaded Binary operator '+': concatenate two stinrg as non-member function 
+Mystring operator+(const Mystring &lhs, const Mystring &rhs){
+    char *buff = new char [std::strlen(lhs.str) + std::strlen(rhs.str) + 1];
+    // 1. Copy first one over
+    std::strcpy(buff, lhs.str);
+    // 2. Concatenate on the end of first one with second string
+    std::strcat(buff, rhs.str);
     
-    // 4. De-allocate the copy we create from the heap
+    // 3. Create new object
+    Mystring temp{buff};
+    
+    //  4. De-allocate what we create on the heap
     delete [] buff;
-    
-    
+     
     return temp;
-} 
-
-
-// Overloaded Binary operator '+': concatenate two strings
-Mystring Mystring::operator+(const Mystring &rhs) const{
-    // 1. Create new object by value? need to make a new area in memory for characters on the heap -> how big is it going to be? the length of two strings + 1 (null termintaor)
-    char *buff = new char[std::strlen(this->str) + std::strlen(rhs.str) +1];
-     
-     // 2. Copy the first string
-     std::strcpy(buff, this->str);
-     
-     // 3. Concatenate into buff from second string (rhs.str)
-     std::strcat(buff, rhs.str);
-     
-     // 4. Create a new object we gonna return.
-     Mystring temp {buff};
-     
-     // 5. De-allocate the copy we create from the heap
-     delete [] buff;
-     
-     return temp;
-     
 }
