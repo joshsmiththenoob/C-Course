@@ -5,9 +5,9 @@ class Mystring
 {
     //  The class is going to delcare insertion/extraaction operator overloaded as friend non-member functions
     // Stream Insertion operator overloading -> !! return by reference !!
-    friend std::ostream &operator<<(std::ostream &os; const Mystring &rhs);
+    friend std::ostream &operator<<(std::ostream &os, const Mystring &rhs);
     // Stream Extraction operator overloading -> !! return by reference !!
-    friend std::istream &operator>>(std::istream &is; Mystring &rhs); // gonna modify Mystring class cause we need to assign value from stream
+    friend std::istream &operator>>(std::istream &is, Mystring &rhs); // gonna modify Mystring class cause we need to assign value from stream
     
 private:
     char *str;  // pointer to array of char (char[]) that holds a C-style string
@@ -25,6 +25,10 @@ public:
     int get_length() const;                              // getters
     const char *get_str() const;                            
     
+    // Overloaded assignment operator
+    // returns Mystring (this = myself) object by reference -> left hand side == current object
+    Mystring& operator=(const Mystring &rhs);                      // Copy Assignment
+    Mystring& operator=(Mystring &&rhs);                            // Move Assignment
     
 };
 

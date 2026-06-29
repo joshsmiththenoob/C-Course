@@ -4,8 +4,8 @@
   <Project Name="Mystring-copy-assignment" Path="Mystring-copy-assignment/Mystring-copy-assignment.project" Active="No"/>
   <Project Name="Mystring-move-assignment" Path="Mystring-move-assignment/Mystring-move-assignment.project" Active="No"/>
   <Project Name="Mystring-operator-methods" Path="CourseSection14/CourseSection14.project" Active="No"/>
-  <Project Name="Mystring-operator-functions" Path="Mystring-operator-functions/Mystring-operator-functions.project" Active="Yes"/>
-  <Project Name="Mystring-insertion-extraction" Path="Mystring-insertion-extraction/Mystring-insertion-extraction.project"/>
+  <Project Name="Mystring-operator-functions" Path="Mystring-operator-functions/Mystring-operator-functions.project" Active="No"/>
+  <Project Name="Mystring-insertion-extraction" Path="Mystring-insertion-extraction/Mystring-insertion-extraction.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

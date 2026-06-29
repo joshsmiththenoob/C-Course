@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Mystring-operator-functions
+ProjectName            :=Mystring-insertion-extraction
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=D:/Project/CppCourse/C-Course/Workspaces/CourseSection14
-ProjectPath            :=D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-operator-functions
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Mystring-operator-functions
+ProjectPath            :=D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-insertion-extraction
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Mystring-insertion-extraction
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -95,12 +95,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-operator-functions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-insertion-extraction/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix): Mystring.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-operator-functions/Mystring.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Project/CppCourse/C-Course/Workspaces/CourseSection14/Mystring-insertion-extraction/Mystring.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Mystring.cpp$(PreprocessSuffix): Mystring.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Mystring.cpp$(PreprocessSuffix) Mystring.cpp
 

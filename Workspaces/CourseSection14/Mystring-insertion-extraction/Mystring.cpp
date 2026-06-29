@@ -71,5 +71,68 @@ const char *Mystring::get_str() const {
     return str;
 }
 
+// Overloaded assignment operator
+// returns Mystring (this = myself) object by reference
+Mystring& Mystring::operator=(const Mystring &rhs){  // Copy Assignment
+    std::cout << "Copy Assignment" << std::endl;
+
+    if (this == &rhs) // Return current object if current object euqal rand-hand-side object
+        return *this; // Note: we need to return "reference(alias of that value(object))", not "pointer (memory address)"
+        
+    // First, we need to de-allocate the origin value where the memory address got from str (the array of characters pointer)
+    delete [] this->str; // "this" makes more clear that we de-allocate the deference of str == array of character
+    
+    // Then, assign the str to allocate the memory address that rhs.str got on the heap (including null terminator)
+    str = new char [std::strlen(rhs.str) + 1 ];
+    std::strcpy(this->str, rhs.str);  // THe string copy function simply copies one character at a time until it hits the terminating chracter.
+    return *this;
+        
+}
+
  
+ Mystring& Mystring::operator=(Mystring &&rhs){ // Move Assignment -> expecting r-value references
+    std::cout << "Move Assignment " << std::endl; 
+    
+    if (this == &rhs)
+        return *this;
+        
+    // De-allocate the origin deference of pointer on the heap
+    delete[] this -> str; 
+        
+    // Steal the pointer from  r-value object
+    this -> str = rhs.str;
+   // After stealing the pointer, set source.str to nullptr.
+    // Otherwise, when the moved-from object is destroyed,
+    // it would delete the same heap memory.
+    rhs.str = nullptr;
+     
+     return *this;
+ }
+
+
+
  
+ // Overloaded Stream Insertion operator >>
+ std::ostream &operator<<(std::ostream &os, const Mystring &rhs){
+     //  let our arry of character which is the pointer of first element of the array of character in the heap
+     os << rhs.str;
+     // Just return the origin ostream obj so that we can chain insertions.
+     return os;
+ }
+ 
+ // Overloaded Stream Extraction operator <<
+ std::istream &operator>>(std::istream &is, Mystring &rhs){ // We're gonna read into Mystring obj (rhs) and change it
+      // Create big buffer to contain characters from istream obj on the heap
+      char *buff = new char[1000];
+      // Receive data from istream obj
+      is >> buff;
+      
+      // Copy Assignment/Move Assignment operator will assign value of buff into rhs.str
+      rhs = Mystring(buff); 
+      
+      // delete temporary memory we created from heap
+      delete [] buff;
+      
+      return is;
+     
+ }
