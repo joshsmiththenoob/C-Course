@@ -1,0 +1,27 @@
+[
+  {
+    "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\main.cpp -o C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall",
+    "directory": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass",
+    "file": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\main.cpp"
+  },
+  {
+    "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\Account.h -o C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall",
+    "directory": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass",
+    "file": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\Account.h"
+  },
+  {
+    "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\SavingsAccount.h -o C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\SavingsAccount.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall",
+    "directory": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass",
+    "file": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\SavingsAccount.h"
+  },
+  {
+    "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\Account.cpp -o C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\Account.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall",
+    "directory": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass",
+    "file": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\Account.cpp"
+  },
+  {
+    "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\SavingsAccount.cpp -o C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\SavingsAccount.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall",
+    "directory": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass",
+    "file": "C:\\Users\\ai\\Desktop\\smithfu\\repositories\\C-Course\\Workspaces\\CourseSection15\\DerivingOurFistClass\\SavingsAccount.cpp"
+  }
+]

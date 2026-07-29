@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CourseSection15" Database="" Version="10000">
+  <Project Name="DerivingOurFistClass" Path="DerivingOurFistClass/DerivingOurFistClass.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="DerivingOurFistClass" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
