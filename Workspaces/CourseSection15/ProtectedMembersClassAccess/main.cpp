@@ -27,7 +27,7 @@ public:
     void access_base_members(){
         this->a = 100; //OK
         this->b = 200; // OK
-        this->c = 300; // NOT accessible 
+//        this->c = 300; // NOT accessible 
     }
 
 };
@@ -44,6 +44,10 @@ int main(){
 //    base.c = 300;
     
     std::cout << "======================= Base member access from derived objects =======================" << std::endl;
+    Derived derived;
+    derived.a = 100; // public OK
+//    derived.b = 200; // protected is NOT accessible by global scope except class which got inheritance relationship itself
+//    derived.c = 300; // private is NOT accessible, ONLY class itself or its friend functions got access
 
     
     return 0;
