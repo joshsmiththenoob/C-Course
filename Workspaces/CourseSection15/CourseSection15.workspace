@@ -3,7 +3,8 @@
   <Project Name="DerivingOurFistClass" Path="DerivingOurFistClass/DerivingOurFistClass.project" Active="No"/>
   <Project Name="ProtectedMembersClassAccess" Path="ProtectedMembersClassAccess/ProtectedMembersClassAccess.project" Active="No"/>
   <Project Name="ConstructorsAndDestructors" Path="ConstructorsAndDestructors/ConstructorsAndDestructors.project" Active="No"/>
-  <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="Yes"/>
+  <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="No"/>
+  <Project Name="CopyCOnstructorAssignmentOperator" Path="CopyCOnstructorAssignmentOperator/CopyCOnstructorAssignmentOperator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="ProtectedMembersClassAccess" ConfigName="Debug"/>
       <Project Name="ConstructorsAndDestructors" ConfigName="Debug"/>
       <Project Name="BaseClassInitialization" ConfigName="Debug"/>
+      <Project Name="CopyCOnstructorAssignmentOperator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

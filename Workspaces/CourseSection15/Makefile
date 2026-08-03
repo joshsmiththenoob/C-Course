@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "==========Building project:[ BaseClassInitialization - Debug ]=========="
-	@cd "BaseClassInitialization" && "$(MAKE)" -f  "BaseClassInitialization.mk"
+	@echo "==========Building project:[ CopyCOnstructorAssignmentOperator - Debug ]=========="
+	@cd "CopyCOnstructorAssignmentOperator" && "$(MAKE)" -f  "CopyCOnstructorAssignmentOperator.mk"
 clean:
-	@echo "==========Cleaning project:[ BaseClassInitialization - Debug ]----------"
-	@cd "BaseClassInitialization" && "$(MAKE)" -f  "BaseClassInitialization.mk" clean
+	@echo "==========Cleaning project:[ CopyCOnstructorAssignmentOperator - Debug ]----------"
+	@cd "CopyCOnstructorAssignmentOperator" && "$(MAKE)" -f  "CopyCOnstructorAssignmentOperator.mk" clean
