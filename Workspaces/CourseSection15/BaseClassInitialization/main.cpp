@@ -1,5 +1,5 @@
 // Section 15
-// Constructors and Destructors 
+// Base Class Initialization
 # include <iostream>
 using namespace std;
 
@@ -35,13 +35,13 @@ private:
 public:
     // No-args constructor
     Derived()
-        : doubled_value{0}
+        : Base{}, doubled_value{0} // Call Base class initializer(constructor) explicitly by Derived class
         {
             cout << "Derived no-args constructor activated." << endl;
         }
      // One-arg overloaded constructor
     Derived(int x)
-        : doubled_value{x*2}
+        : Base{x}, doubled_value{x*2}  // Call Base class initializer(constructor) explicitly by Derived class
         {
             cout << "Derived one-arg (int) overloaded constructor activated." <<endl;
         }
@@ -53,10 +53,7 @@ public:
 };
 
 int main(){
-//    Base b;
-//    Base b{100};
-
-//    Derived d;  // Default constructor called while there's no constructor provided -> because of not setting value to doubled_value variable of Derived class from default constructor -> doubled_value got garbage data.
+//    Derived d;  
     Derived d{1000};
     
     return 0;

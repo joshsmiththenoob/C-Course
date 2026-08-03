@@ -1,5 +1,5 @@
 // Section 15
-// Protected members and class access
+// Constructors and Destructors
 #include <iostream>
 
 class Base{
