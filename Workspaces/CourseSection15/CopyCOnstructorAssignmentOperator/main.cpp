@@ -88,6 +88,38 @@ public:
         this->doubled_value = rhs.doubled_value;
         return *this;
     }
+    
+//    void display_self_address(){
+//        cout << "Derived obj address: " << this << endl;
+//    }
+//    
+//    
+//    void display_base_address(){
+//        const Base* base_ptr = static_cast<const Base*>(this);
+//        
+//        cout << "Base subobject address: "
+//         << static_cast<const void*>(base_ptr)
+//         << endl;
+//    }
+//    
+    
+    void display_memory_info() const {
+        const Base* base_ptr = static_cast<const Base*>(this);
+        cout << "Base subobject address: "
+                 << base_ptr << "\n";
+         
+        cout << "sizeof(Base): "
+                << sizeof(Base) << " bytes \n";
+                
+        cout << "Derived obj address: " << this << "\n";
+        
+        cout << "sizeof(*this): "
+                << sizeof(*this) << " bytes \n";
+                
+        cout << "sizeof(Derived): "
+                <<sizeof(Derived) << " bytes \n";
+                
+    }
         
         
     // Destructor
@@ -104,8 +136,12 @@ int main(){
 //    b = b1;             // Overloaded Copy assignment operator
 //    
     Derived d {100};   //Overloaded one-arg constructor
-    Derived d1 {d};    // Copy constructor
-    d = d1;             // Overloaded Copy assignment operator
+    d.display_memory_info();
+//    d.display_self_address();
+//    d.display_base_address();
+    
+//    Derived d1 {d};    // Copy constructor
+//    d = d1;             // Overloaded Copy assignment operator
     
     
     return 0;
