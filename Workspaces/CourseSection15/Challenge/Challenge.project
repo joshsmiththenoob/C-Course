@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="RedefiningBaseClassMethods" Version="11000" InternalType="Console">
+<CodeLite_Project Name="Challenge" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="CheckingAccount.cpp"/>
+    <File Name="CheckingAccount.h"/>
+    <File Name="Description.txt"/>
     <File Name="AccountUtil.cpp"/>
     <File Name="AccountUtil.h"/>
     <File Name="SavingsAccount.cpp"/>
