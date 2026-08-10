@@ -3,6 +3,8 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="TrustAccount.cpp"/>
+    <File Name="TrustAccount.h"/>
     <File Name="CheckingAccount.cpp"/>
     <File Name="CheckingAccount.h"/>
     <File Name="Description.txt"/>

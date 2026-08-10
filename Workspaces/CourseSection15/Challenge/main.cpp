@@ -2,6 +2,8 @@
 #include <vector>
 #include "Account.h"
 #include "SavingsAccount.h" // transitive include "Account.h" from "SavingAccount.h" -> No need to include "Account.h" in main.cpp again
+#include "CheckingAccount.h"
+#include "TrustAccount.h"
 #include "AccountUtil.h"
 
 using namespace std;
@@ -31,6 +33,30 @@ int main() {
     display(sav_accounts);
     deposit(sav_accounts, 1000);
     withdraw(sav_accounts, 2000);
+    
+    
+    // CheckingsAccount
+    vector<CheckingAccount> check_accounts;
+    check_accounts.push_back(CheckingAccount {});
+    check_accounts.push_back(CheckingAccount {"Bandit"});
+    check_accounts.push_back(CheckingAccount {"Jackal", 3000});
+    check_accounts.push_back(CheckingAccount {"Hibana", 6000});
+
+    display(check_accounts);
+    deposit(check_accounts, 1000);
+    withdraw(check_accounts, 2000);
+    
+    
+    // Trust Account
+    vector<TrustAccount> t_accounts;
+    t_accounts.push_back(TrustAccount {});
+    t_accounts.push_back(TrustAccount {"Josh"});
+    t_accounts.push_back(TrustAccount {"Ping", 8000});
+    t_accounts.push_back(TrustAccount {"NightTrain", 9000, 10.0});
+
+    display(t_accounts);
+    deposit(t_accounts, 1000);
+    withdraw(t_accounts, 2000);
     
     
     return 0;

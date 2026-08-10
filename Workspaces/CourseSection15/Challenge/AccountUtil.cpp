@@ -64,3 +64,70 @@ void withdraw(std::vector<SavingsAccount> &accounts, double amount){
             std::cout << "Failed Withdrawal of " << amount << " from " << acc << std::endl;
     }
 }
+
+
+
+
+// Utility helper functions for Checking Account class
+// Overloaded functions
+void display(const  std::vector<CheckingAccount> &accounts){
+    std::cout << "\n ================== CheckingsAccounts ==================" << std::endl;
+    for (const auto &acc: accounts)
+        std::cout << acc << std::endl;
+}
+
+
+
+void deposit(std::vector<CheckingAccount> &accounts, double amount){
+    std::cout << "\n ================== Depositing to Checkings Accounts  ==================" << std::endl;
+     for (auto &acc: accounts){
+         if (acc.deposit(amount))
+             std::cout << "Deposited " << amount << " to " << acc << std::endl;
+        else 
+             std::cout << "Failed Deposit of " << amount << " to " << acc << std::endl;
+    }
+}
+
+
+void withdraw(std::vector<CheckingAccount> &accounts, double amount){
+    std::cout <<  "\n ================== Withdrawing from CheckingsAccount  ==================" << std::endl;
+    for (auto &acc: accounts){
+        if (acc.withdraw(amount))
+            std::cout << "Withdrew " << amount << " from " << acc << std::endl;
+        else
+            std::cout << "Failed Withdrawal of " << amount << " from " << acc << std::endl;
+    }
+}
+
+
+
+// Utility helper functions for Trust Account class
+// Overloaded functions
+void display(const  std::vector<TrustAccount> &accounts){
+    std::cout << "\n ================== TrustAccounts ==================" << std::endl;
+    for (const auto &acc: accounts)
+        std::cout << acc << std::endl;
+}
+
+
+
+void deposit(std::vector<TrustAccount> &accounts, double amount){
+    std::cout << "\n ================== Depositing to Checkings TrustAccount  ==================" << std::endl;
+     for (auto &acc: accounts){
+         if (acc.deposit(amount))
+             std::cout << "Deposited " << amount << " to " << acc << std::endl;
+        else 
+             std::cout << "Failed Deposit of " << amount << " to " << acc << std::endl;
+    }
+}
+
+
+void withdraw(std::vector<TrustAccount> &accounts, double amount){
+    std::cout <<  "\n ================== Withdrawing from TrustAccount  ==================" << std::endl;
+    for (auto &acc: accounts){
+        if (acc.withdraw(amount))
+            std::cout << "Withdrew " << amount << " from " << acc << std::endl;
+        else
+            std::cout << "Failed Withdrawal of " << amount << " from " << acc << std::endl;
+    }
+}

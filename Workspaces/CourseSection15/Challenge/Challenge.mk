@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=ai
-Date                   :=07/08/2026
+Date                   :=10/08/2026
 CodeLitePath           :="C:/Program Files/CodeLite/share/codelite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -64,7 +64,7 @@ AS       := C:/mingw64/bin/as.exe
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
 PATH:=C:\mingw64\bin;$(PATH)
-Objects0=$(IntermediateDirectory)/AccountUtil.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/SavingsAccount.cpp$(ObjectSuffix) $(IntermediateDirectory)/Account.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/TrustAccount.cpp$(ObjectSuffix) $(IntermediateDirectory)/Account.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/SavingsAccount.cpp$(ObjectSuffix) $(IntermediateDirectory)/AccountUtil.cpp$(ObjectSuffix) $(IntermediateDirectory)/CheckingAccount.cpp$(ObjectSuffix) 
 
 
 
@@ -95,10 +95,15 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/AccountUtil.cpp$(ObjectSuffix): AccountUtil.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection15/Challenge/AccountUtil.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/AccountUtil.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/AccountUtil.cpp$(PreprocessSuffix): AccountUtil.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/AccountUtil.cpp$(PreprocessSuffix) AccountUtil.cpp
+$(IntermediateDirectory)/TrustAccount.cpp$(ObjectSuffix): TrustAccount.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection15/Challenge/TrustAccount.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/TrustAccount.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/TrustAccount.cpp$(PreprocessSuffix): TrustAccount.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/TrustAccount.cpp$(PreprocessSuffix) TrustAccount.cpp
+
+$(IntermediateDirectory)/Account.cpp$(ObjectSuffix): Account.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection15/Challenge/Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Account.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Account.cpp$(PreprocessSuffix): Account.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Account.cpp$(PreprocessSuffix) Account.cpp
 
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection15/Challenge/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
@@ -110,10 +115,15 @@ $(IntermediateDirectory)/SavingsAccount.cpp$(ObjectSuffix): SavingsAccount.cpp
 $(IntermediateDirectory)/SavingsAccount.cpp$(PreprocessSuffix): SavingsAccount.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/SavingsAccount.cpp$(PreprocessSuffix) SavingsAccount.cpp
 
-$(IntermediateDirectory)/Account.cpp$(ObjectSuffix): Account.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection15/Challenge/Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Account.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Account.cpp$(PreprocessSuffix): Account.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Account.cpp$(PreprocessSuffix) Account.cpp
+$(IntermediateDirectory)/AccountUtil.cpp$(ObjectSuffix): AccountUtil.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection15/Challenge/AccountUtil.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/AccountUtil.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/AccountUtil.cpp$(PreprocessSuffix): AccountUtil.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/AccountUtil.cpp$(PreprocessSuffix) AccountUtil.cpp
+
+$(IntermediateDirectory)/CheckingAccount.cpp$(ObjectSuffix): CheckingAccount.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ai/Desktop/smithfu/repositories/C-Course/Workspaces/CourseSection15/Challenge/CheckingAccount.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/CheckingAccount.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/CheckingAccount.cpp$(PreprocessSuffix): CheckingAccount.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/CheckingAccount.cpp$(PreprocessSuffix) CheckingAccount.cpp
 
 ##
 ## Clean
