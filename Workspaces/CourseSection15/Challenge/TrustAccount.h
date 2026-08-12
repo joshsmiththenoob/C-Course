@@ -14,6 +14,13 @@ private:
     static constexpr const char *def_name = "Unname Trust Account";
     static constexpr const double def_balance = 0.0;
     static constexpr const double def_int_rate = 0.0;
+    // Teacher Frank's suggestion
+    static constexpr const double bonus_amount = 50.0;
+    static constexpr const double bonus_threshold = 5000.0;
+    static constexpr const int max_withdrawals = 3;
+    static constexpr const double max_withdraw_percent = 0.2;
+    
+    
 protected:
     int withdrawal_count {0};
 public:

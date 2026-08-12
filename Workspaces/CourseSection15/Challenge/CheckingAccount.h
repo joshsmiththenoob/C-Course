@@ -10,9 +10,12 @@ class CheckingAccount: public Account
     
 private:
     // Settings class variable in private access -> only for C++11 above.
+    // Teacher Frank Note: constexpr -> Compile time constant 
     // We can change the const variable's value in one place.
     static constexpr const char *def_name = "Unname Checking Account";
     static constexpr const double def_balance = 0.0;
+    // per check fee: not a object thing -> it's class thing! it doesn't depend on any CheckingAccount obj -> if it does -> pass it into constructor.
+    static constexpr const double per_check_fee = 1.5;
 public:
     // Two-args Constructor
     CheckingAccount(std::string name = def_name, double balance = def_balance);

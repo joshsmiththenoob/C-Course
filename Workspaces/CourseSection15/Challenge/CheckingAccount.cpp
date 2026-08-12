@@ -27,7 +27,7 @@ CheckingAccount::CheckingAccount(std::string name, double balance)
 // Redefined/Overwrited withdraw method
 bool CheckingAccount::withdraw(double amount){
     // Need flat fee of $1.50 per with drawal transaction.
-    amount += 1.50;
+    amount += this->per_check_fee;
     return Account::withdraw(amount);
 }
 

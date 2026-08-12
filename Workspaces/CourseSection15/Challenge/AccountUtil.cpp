@@ -112,7 +112,7 @@ void display(const  std::vector<TrustAccount> &accounts){
 
 
 void deposit(std::vector<TrustAccount> &accounts, double amount){
-    std::cout << "\n ================== Depositing to Checkings TrustAccount  ==================" << std::endl;
+    std::cout << "\n ================== Depositing to TrustAccount  ==================" << std::endl;
      for (auto &acc: accounts){
          if (acc.deposit(amount))
              std::cout << "Deposited " << amount << " to " << acc << std::endl;

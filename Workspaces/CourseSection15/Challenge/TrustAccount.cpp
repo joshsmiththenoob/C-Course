@@ -25,16 +25,23 @@ TrustAccount::TrustAccount(std::string name, double balance, double int_rate)
 
 // deposit method
 bool TrustAccount::deposit(double amount){
-    if (amount >= 5000.0)
-        amount += 50; //any deposits of $5000.0 or more will receive a $50.00 bonus deposited to the account.
+    if (amount >= this->bonus_threshold)
+        amount += this->bonus_amount; //any deposits of $5000.0 or more will receive a $50.00 bonus deposited to the account.
     return SavingsAccount::deposit(amount);
 }
 
 // withdraw method
 bool TrustAccount::withdraw(double amount){
-    if (SavingsAccount::withdraw(amount)){
-        this->withdrawal_count += 1;
-        return true;
-    }else
+    if (this->withdrawal_count >= this-> max_withdrawals)
         return false;
+        
+    if (amount > this->balance * this->max_withdraw_percent)
+        return false;
+        
+    if (SavingsAccount::withdraw(amount)){
+        ++withdrawal_count;
+        return true;
+    }
+    
+    return false;
 }

@@ -50,13 +50,18 @@ int main() {
     // Trust Account
     vector<TrustAccount> t_accounts;
     t_accounts.push_back(TrustAccount {});
-    t_accounts.push_back(TrustAccount {"Josh"});
-    t_accounts.push_back(TrustAccount {"Ping", 8000});
-    t_accounts.push_back(TrustAccount {"NightTrain", 9000, 10.0});
+    t_accounts.push_back(TrustAccount {"Josh", 10000, 5.0});
+    t_accounts.push_back(TrustAccount {"Ping", 2000, 4.0});
+    t_accounts.push_back(TrustAccount {"NightTrain", 30000, 10.0});
 
     display(t_accounts);
     deposit(t_accounts, 1000);
     withdraw(t_accounts, 2000);
+    
+    // withdraw 5 times from each trust account
+    // All withdrawals should fail if there are too many withdrawals of if withdrawl is > 20% of the balance
+    for (int i = 0; i < 5; i++)
+        withdraw(t_accounts, 1000);
     
     
     return 0;
