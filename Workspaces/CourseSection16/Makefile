@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "==========Building project:[ UsingOverride - Debug ]=========="
-	@cd "UsingOverride" && "$(MAKE)" -f  "UsingOverride.mk"
+	@echo "==========Building project:[ PreVirtualFunctions - Debug ]=========="
+	@cd "PreVirtualFunctions" && "$(MAKE)" -f  "PreVirtualFunctions.mk"
 clean:
-	@echo "==========Cleaning project:[ UsingOverride - Debug ]----------"
-	@cd "UsingOverride" && "$(MAKE)" -f  "UsingOverride.mk" clean
+	@echo "==========Cleaning project:[ PreVirtualFunctions - Debug ]----------"
+	@cd "PreVirtualFunctions" && "$(MAKE)" -f  "PreVirtualFunctions.mk" clean
