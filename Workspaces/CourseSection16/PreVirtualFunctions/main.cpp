@@ -68,6 +68,14 @@ public:
 };
 
 
+void screen_refresh(const std::vector<Shape *> &shapes){ // We'll pass the reference so we don't copy it.
+    std::cout << " ============ Refreshing ============ " << std::endl;
+    // We didn't want to mess with pointer of the shape -> we don't want to modify the address the pointer stored -> will leak the memory -> const 
+    for (const auto ptr: shapes)
+        ptr->draw();
+}
+
+
 
 int main(){
     
@@ -88,6 +96,25 @@ int main(){
     
     Shape &c_ref2 = c;
     c_ref2.draw();           // Dynamically bound -> Circle::draw()
+    
+    
+    std::cout << " ============ Get vector of pointers to Base ============ " << std::endl;
+    
+    Shape *s1 = new Circle();
+    Shape *s2 = new Line();
+    Shape *s3 = new Square();
+    
+    std::vector<Shape *> shapes {s1, s2, s3};
+    
+    screen_refresh(shapes);
+    
+    
+    
+    delete c_ptr1;
+    delete c_ptr2;
+    delete s1;
+    delete s2;
+    delete s3;
     
     return 0;
 }
