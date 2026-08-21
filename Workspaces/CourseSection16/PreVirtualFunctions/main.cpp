@@ -106,7 +106,7 @@ int main(){
     
     std::vector<Shape *> shapes {s1, s2, s3};
     
-    screen_refresh(shapes);
+    screen_refresh(shapes); // pointer to obj -> from concrete class -> need to implement abstract method (pure virtual method) from Base class
     
     
     

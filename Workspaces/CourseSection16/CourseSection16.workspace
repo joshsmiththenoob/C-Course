@@ -6,7 +6,10 @@
   <Project Name="VirtualDestructors" Path="VirtualDestructors/VirtualDestructors.project" Active="No"/>
   <Project Name="UsingOverride" Path="UsingOverride/UsingOverride.project" Active="No"/>
   <Project Name="BaseClassReference" Path="BaseClassReference/BaseClassReference.project" Active="No"/>
-  <Project Name="PreVirtualFunctions" Path="PreVirtualFunctions/PreVirtualFunctions.project" Active="Yes"/>
+  <Project Name="PreVirtualFunctions" Path="PreVirtualFunctions/PreVirtualFunctions.project" Active="No"/>
+  <Project Name="Interfaces-start" Path="Interfaces-start/Interfaces-start.project" Active="No"/>
+  <Project Name="Interfaces-Complete" Path="Interfaces-Complete/Interfaces-Complete.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -17,6 +20,9 @@
       <Project Name="UsingOverride" ConfigName="Debug"/>
       <Project Name="BaseClassReference" ConfigName="Debug"/>
       <Project Name="PreVirtualFunctions" ConfigName="Debug"/>
+      <Project Name="Interfaces-start" ConfigName="Debug"/>
+      <Project Name="Interfaces-Complete" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
